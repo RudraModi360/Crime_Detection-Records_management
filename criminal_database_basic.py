@@ -3,7 +3,7 @@ from PIL import Image
 import io
 
 x = mysql.connector.connect(
-    host="localhost", user="root", password="123456", database="criminal"
+    host="localhost", user="root", password="", database="criminal"
 )
 y = x.cursor()
 
